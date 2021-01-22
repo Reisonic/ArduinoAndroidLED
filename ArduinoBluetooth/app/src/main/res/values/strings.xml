@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BTDemo</string>
+    <string name="status">Status</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+</resources>

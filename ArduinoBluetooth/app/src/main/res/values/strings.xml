@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BTDemo</string>
+    <string name="app_name">Arduino Bluetooth LED</string>
     <string name="status">Status</string>
     <string name="on">On</string>
     <string name="off">Off</string>

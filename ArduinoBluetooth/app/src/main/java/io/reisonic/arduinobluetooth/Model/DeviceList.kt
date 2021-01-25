@@ -17,7 +17,7 @@ import io.reisonic.arduinobluetooth.View.DeviceActivity
  *
  * @author  Kosmachev Vladislav
  * @version 1.0
- * @since   2021-01-22
+ * @since   2021-01-25
  */
 class DeviceList(var context: Context, var device:List<Device>):RecyclerView.Adapter<DeviceList.DeviceViewHolder>() {
 

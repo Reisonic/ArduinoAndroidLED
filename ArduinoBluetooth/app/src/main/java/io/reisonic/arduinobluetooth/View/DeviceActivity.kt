@@ -20,7 +20,7 @@ import org.koin.android.ext.android.inject
  *
  * @author  Kosmachev Vladislav
  * @version 1.0
- * @since   2021-01-22
+ * @since   2021-01-25
  */
 open class DeviceActivity:AppCompatActivity() {
 

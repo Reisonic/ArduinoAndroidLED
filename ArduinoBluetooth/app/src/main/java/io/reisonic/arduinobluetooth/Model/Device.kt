@@ -5,7 +5,7 @@ package io.reisonic.arduinobluetooth.Model
  *
  * @author  Kosmachev Vladislav
  * @version 1.0
- * @since   2021-01-22
+ * @since   2021-01-25
  */
 class Device(_mac_address:String,_name_device:String) {
 

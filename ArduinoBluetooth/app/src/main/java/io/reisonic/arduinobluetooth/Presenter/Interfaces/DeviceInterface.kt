@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
  *
  * @author  Kosmachev Vladislav
  * @version 1.0
- * @since   2021-01-22
+ * @since   2021-01-25
  */
 interface DeviceInterface {
 

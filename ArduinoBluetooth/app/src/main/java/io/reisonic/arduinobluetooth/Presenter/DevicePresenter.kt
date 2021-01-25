@@ -14,7 +14,7 @@ import io.reisonic.arduinobluetooth.Presenter.Interfaces.DeviceInterface
  *
  * @author  Kosmachev Vladislav
  * @version 1.0
- * @since   2021-01-22
+ * @since   2021-01-25
  */
 class DevicePresenter(): DeviceInterface {
 

@@ -1,6 +1,8 @@
-package io.reisonic.arduinobluetooth
+package io.reisonic.arduinobluetooth.Model
 
 import android.app.Application
+import io.reisonic.arduinobluetooth.Presenter.DevicePresenter
+import io.reisonic.arduinobluetooth.Presenter.MainPresenter
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -17,6 +19,7 @@ class App : Application(){
 
     val appModule = module {
         single { MainPresenter() }
+        single { DevicePresenter() }
     }
 
     override fun onCreate() {

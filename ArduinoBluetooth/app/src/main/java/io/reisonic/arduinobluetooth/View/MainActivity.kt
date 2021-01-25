@@ -1,9 +1,10 @@
-package io.reisonic.arduinobluetooth
+package io.reisonic.arduinobluetooth.View
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
+import io.reisonic.arduinobluetooth.Presenter.MainPresenter
+import io.reisonic.arduinobluetooth.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.ext.android.inject
 
@@ -16,9 +17,9 @@ import org.koin.android.ext.android.inject
  * @version 1.0
  * @since   2021-01-22
  */
-class MainActivity : AppCompatActivity() {
+class MainActivity : DeviceActivity() {
 
-    private val presenter : MainPresenter by inject()
+    val presenter : MainPresenter by inject()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
@@ -46,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         connect.setOnClickListener {
-            presenter.connect(this)
+            presenter.connect(this, mac_address)
         }
 
         disconnect.setOnClickListener {

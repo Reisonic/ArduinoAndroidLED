@@ -1,10 +1,10 @@
-package io.reisonic.arduinobluetooth
+package io.reisonic.arduinobluetooth.Presenter.Interfaces
 
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 /**
- * Functions used in application
+ * Functions used in main body
  *
  * @author  Kosmachev Vladislav
  * @version 1.0
@@ -22,7 +22,7 @@ interface MainInterface {
      * Connecting to current bluetooth device
      * @param activity - Current activity
      */
-    fun connectBluetoothDevice(activity: AppCompatActivity)
+    fun connectBluetoothDevice(activity: AppCompatActivity, mac_address:String)
 
     /**
      * Disconnecting current paired devices
@@ -34,7 +34,7 @@ interface MainInterface {
      * Connecting current paired devices
      * @param activity - current activity
      */
-    fun connect(activity: AppCompatActivity)
+    fun connect(activity: AppCompatActivity,mac_address: String)
 
     /**
      * Parser for color in hex value

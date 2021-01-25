@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.reisonic.arduinobluetooth.MainActivity">
+    tools:context="io.reisonic.arduinobluetooth.View.MainActivity">
 
     <top.defaults.colorpicker.ColorPickerView
         android:id="@+id/color"
